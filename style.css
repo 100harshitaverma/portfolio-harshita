@@ -242,7 +242,12 @@ nav {
 }
 
 .project-two {
-    background: #3a3a3a;
+
+    background-image: url("image.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+};
 }
 
 .project-three {
@@ -261,9 +266,6 @@ nav {
 .project-info p {
     color: #999999;
 }
-
-
-/* ---------- CONTACT ---------- */
 
 .contact {
     min-height: 80vh;
@@ -292,8 +294,6 @@ nav {
     color: #ffffff;
     font-size: 20px;
 }
-/* CONTACT SECTION */
-
 .contact {
     padding: 100px 10%;
     background: #080e3e;
@@ -371,9 +371,6 @@ nav {
     color: #080e3e;
 }
 
-
-/* ---------- FOOTER ---------- */
-
 footer {
     padding: 30px 10%;
 
@@ -385,9 +382,6 @@ footer {
     color: #777777;
     font-size: 12px;
 }
-
-
-/* ---------- RESPONSIVE ---------- */
 
 @media (max-width: 800px) {
 
